@@ -145,6 +145,34 @@ h6 {
   }
 }
 
+
+span{
+  position: relative;
+}
+
+span#td::before{
+content: "";
+background: #826E54;
+height: 2px;
+width: 100%;
+position: absolute;
+left: 0;
+bottom: -5px;
+}
+ 
+
+.bi-telephone-fill::before {
+  content: "\f5b4";
+  margin-left: 5px;
+}
+
+.bi-envelope-open-fill::before {
+  content: "\f32d";
+  margin-left: 5px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -234,6 +262,7 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    margin: auto;
   }
 
   .navmenu ul {
@@ -825,7 +854,7 @@ section,
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:#ffffff;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -838,8 +867,8 @@ section,
 
 .hero .btn-get-started {
   background-color: #826E54;
-  color: #ffffff;
-  font-weight: 400;
+  color: #000000;
+  font-weight: 600;
   font-size: 14px;
   display: inline-block;
   padding: 12px 40px;
