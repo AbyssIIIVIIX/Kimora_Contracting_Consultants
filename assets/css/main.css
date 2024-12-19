@@ -163,7 +163,7 @@ span{
   position: relative;
 }
 
-span#td::before{
+span #td::before{
 content: "";
 background: #826E54;
 height: 2px;
@@ -294,7 +294,7 @@ bottom: -5px;
     text-align: center;
   }
 
-  .navmenu a,
+  .navmenu a, .navmenu span,
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 15px;
@@ -820,7 +820,7 @@ section,
 .section-title p {
   color: var(--heading-color);
   margin: 0;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 400;
   font-family: var(--heading-font);
 }
@@ -1281,6 +1281,7 @@ section,
 .services .service-item .icon {
   margin-bottom: 15px;
 }
+
 
 .services .service-item .icon i {
   color: var(--default-color);
