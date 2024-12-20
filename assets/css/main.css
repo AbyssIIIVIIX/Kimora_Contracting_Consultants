@@ -480,7 +480,7 @@ bottom: -5px;
 
   .navmenu .dropdown>.dropdown-active {
     display: block;
-    background-color: #CA5D2B;
+    background-color: var(--background-color);
   }
 
   .mobile-nav-active {
