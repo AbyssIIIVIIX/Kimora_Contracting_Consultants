@@ -1,0 +1,16 @@
+body{
+    background: #333;
+}
+
+.box{
+  background: white;
+  width: 200px;  
+  height: 200px;
+  position: relative;
+  animation-name: test;
+  animation-duration: 4s;
+}
+
+@keyframes test{
+    0% {background-color: white;}
+}
